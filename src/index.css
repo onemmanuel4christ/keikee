@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('http://fonts.cdnfonts.com/css/gilroy-semi-bold');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bolder');
+@import url('http://fonts.cdnfonts.com/css/gilroy-extra-bold');
+
+                
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(./font/Gilroy-Bold.otf) format('truetype');
+  }
+@font-face {
+  font-family: 'Gilroy-Reg';
+  /* src: local('Gilroy'), url(./font/Gilroy-Extrabold.otf) format('truetype'); */
+  src: local('Gilroy-Reg'), url(./font/Gilroy-Regular.otf) format('truetype');
+}
+
+
+ #root{
+    font-family: Gilroy-Reg;
+  }
+
+ h1{
+    font-family: Gilroy;
+  }
+
+  
+.link{
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
+    margin-right: 6px;
+}
